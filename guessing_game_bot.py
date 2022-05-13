@@ -2,7 +2,7 @@ from random import choice
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('5381048754:AAGPxknm4po_gLwRYTSBBDiCtLit4HWgdm8')
+bot = telebot.TeleBot(token)
 
 words = {'животные': ['жираф', 'слон', 'аллигатор', 'пчела', 'заяц', 'кролик', 'рысь', 'лиса', 'обезьяна', 'попугай',
                       'кот', 'собака', 'волк', 'страус', 'пингвин', 'ленивец', 'енот', 'мышь', 'крот', 'медведь',
